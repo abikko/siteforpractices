@@ -1,84 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Title</title>
-    <style>
-        form {
-            float: left;
-            padding: 20px;
-        }
-
-        input {
-            float: end;
-        }
-
-        h1 {
-        }
-        b{
-            float:left;
-        }
-        input{
-            float: right;
-        }
-        a{
-            float:top;
-        }
-    </style>
+	<title>Task 2</title>
 </head>
 <body>
-<div>
-    <form>
-        <fieldset>
-            <legend>Form Validation</legend>
-            <table>
-                <tr>
-                    <th>Name:</th>
-                    <th><input type="text"></th>
-                </tr>
-                <tr>
-                    <th>Username:</th>
-                    <th><input type="text"></th>
-                </tr>
-                </tr>
-                <tr>
-                    <th>Password:</th>
-                    <th><input type="text"></th>
-                </tr>
-                </tr>
-                <tr>
-                    <th>Re-type password:</th>
-                    <th><input type="text"></th>
-                </tr>
-                </tr>
-                <tr>
-                    <th>Gender:</th>
-                    <th>Female<th><input type="radio"></th></th>
-                    <th>Male<th><input type="radio"></th></th>
-                    <th>Other<th><input type="radio"></th></th>
-                </tr>
-                </tr>
-                <tr>
-                    <th>Programming skills:</th>
-                    <th><input type="checkbox">Java</th><th><input type="checkbox">Android</th><th><th><input type="checkbox">Ruby</th><th><input type="checkbox">.Net</th></th>
-                </tr>
-                </tr>
-                <tr>
-                    <th>Contact no:</th>
-                    <th><input type="text"></th>
-                </tr>
-                </tr>
-                <tr>
-                    <th>Email:</th>
-                    <th><input type="text"></th>
-                </tr>
-                </tr>
-                <tr>
-                    <th>College:</th>
-                    <th><input type="text"></th>
-                </tr>
-            </table>
-        </fieldset>
-    </form>
-</div>
+	<form>
+<fieldset style="width: 450px">
+	<legend>Form Validation</legend>
+	<table>
+		<tr>
+			<td>Name:</td>
+			<td><input type="text" name="text"></td>
+		</tr>
+		<tr>
+			<td>Username:</td>
+			<td><input type="text" name="text"></td>
+		</tr>
+		<tr>
+			<td>Password:</td>
+			<td><input type="text" name="text"></td>
+		</tr>
+		<tr>
+			<td>Re-type passsword:</td>
+			<td><input type="text" name="text"></td>
+		</tr>
+		<tr>
+			<td>Gender:</td>
+			<td><input type="radio" name="radiobutton">Male
+			<input type="radio" name="radiobutton">Female
+			<input type="radio" name="radiobutton">Other</td>
+		</tr>
+		<tr>
+			<td>Pragramming skills</td>
+			<td><input type="checkbox" name="checkbox">Java
+			<input type="checkbox" name="checkbox">Android
+		<input type="checkbox" name="checkbox">Ruby
+	<input type="checkbox" name="checkbox">.Net</td>
+		</tr>
+		<tr>
+			<td>Contuct no:</td>
+			<td><input type="text" name="text"></td>
+		</tr>
+		<tr>
+			<td>Email:</td>
+			<td><input type="text" name="text"></td>
+		</tr>
+		<tr>
+			<td>College</td>
+			<td><select name="select">
+				<option value="Select college">Select college</option>
+			</select></td>
+		</tr>			
+		<tr>
+			<td></td>
+			<td><button type="button" onclick="alert('Hello HTML')">Submit</button></td>
+		</tr>							
+	</table>
+</fieldset>
+</form>
 </body>
 </html>
+	
